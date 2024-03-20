@@ -1,27 +1,28 @@
 body{
-    background-color: rgb(155, 185, 241);
+    background-color: rgb(128, 168, 243);
+    display: grid;
     grid-template-areas: 
-    "cabeca, cabeca, cabeca"
-    "secun, princip, princip"
-    "rodap, rodap, rodap";
+    "cabeca cabeca cabeca"
+    "secun princip princip"
+    "rodap rodap rodap";
     grid-template-columns: auto, auto, auto;
     grid-template-rows: auto, auto, auto;
 
 }
 header{
-    background-color: rgb(37, 37, 255);
+    background-color: rgb(73, 152, 255);
     grid-area: cabeca;
 }
 aside{
-    background-color: dodgerblue;
+    background-color: rgb(153, 204, 255);
     grid-area: secun;
 }
 main{
-    background-color: rgb(195, 243, 255);
+    background-color: rgb(202, 244, 255);
     grid-area: princip;
 }
 footer{
-    background-color: rgb(41, 119, 150);
+    background-color: rgb(62, 135, 163);
     grid-area: rodap;
 }
 @media screen and(min-width:800px) {
@@ -32,5 +33,17 @@ footer{
         "princip"
         "rodap";
         grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+    }
+}
+@media screen and(min-width: 400px;) {
+    body{
+        grid-template-areas: 
+        "cabeca"
+        "secun"
+        "princip"
+        "rodap";
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
     }
 }
