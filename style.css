@@ -90,6 +90,19 @@ footer{
 .logo{
     width: 200px;
 }
-.card img{
+.vis{
     width: 250px;
+}
+.infantil{
+    width: 200px;
+    margin-top: 1px;
+}
+.pato{
+    width: 175px;
+}
+.fla{
+    width: 175px;
+}
+.tarta{
+    width: 175px;
 }
