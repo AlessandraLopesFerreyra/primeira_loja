@@ -91,10 +91,10 @@ footer{
     width: 200px;
 }
 .vis{
-    width: 250px;
+    width: 175px;
 }
 .infantil{
-    width: 200px;
+    width: 175px;
     margin-top: 1px;
 }
 .pato{
@@ -105,4 +105,11 @@ footer{
 }
 .tarta{
     width: 175px;
+}
+.card img{
+    width: 200px;
+    transition: 0.7s;
+}
+.card img:hover{
+    width: 230px;
 }
