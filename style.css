@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 body{
+    margin: 0%;
     display: grid;
     grid-template-areas: 
     "cabeca cabeca cabeca"
@@ -10,7 +12,7 @@ body{
 }
 header{
     grid-area: cabeca;
-    background-color: rgb(54, 80, 136);
+    background-color:  rgb(35, 67, 138);
 }
 aside{
     grid-area: secun;
@@ -20,13 +22,13 @@ aside{
 main{
     grid-area: princip;
     display: flex;
-    background-color: #c6e4ff;
+    background-color: rgb(204,221,255);
     position: relative;
    
 }
 footer{
     grid-area: rodap;
-    background-color: rgb(0, 38, 70);
+    background-color: rgb(1, 96, 173);
 }
 @media screen and(max-width:800px) {
     body{
@@ -69,47 +71,55 @@ footer{
     align-items: center;
     margin: 20px;
     transition: 0.5s;
+    cursor: pointer;
 }
-.card a{
+.btne{
     border-radius: 30px;
-    background-color: rgb(59, 59, 252);
+    background: rgb(57, 57, 138);
     display: block;
-    height: 30px;
-    width: 120px;
+    height: 40px;
+    width: 140px;
     text-align: center;
     text-decoration: none;
     color: aliceblue;
-    transition: 1s;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgb(15, 24, 36);
+    outline: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
 }
 .card:hover{
+    width: 325px;
+    height: 475px;
     background-color: rgb(133, 183, 223);
 }
-.card a:hover{
-    background-color: rgb(11, 11, 116);
+.btne:hover{
+    height: 50px;
+    width: 150px;
+    background: rgb(27, 27, 134);
+    letter-spacing: 3px;
 }
 .logo{
-    width: 200px;
-}
-.vis{
-    width: 175px;
-}
-.infantil{
-    width: 175px;
-    margin-top: 1px;
-}
-.pato{
-    width: 175px;
-}
-.fla{
-    width: 175px;
-}
-.tarta{
-    width: 175px;
+    width: 160px;
+    left: 550px;
+    position: relative;
 }
 .card img{
     width: 200px;
     transition: 0.7s;
 }
-.card img:hover{
-    width: 230px;
+.cadas{
+    width: 65px;
+    left: 1050px;
+    position: relative;
+}
+.carrin{
+    width: 60px;
+    left: 920px;
+   position: relative;
 }

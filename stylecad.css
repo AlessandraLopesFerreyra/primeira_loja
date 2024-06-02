@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+.mar{
+    width: 30vw;
+}
+body{
+    margin: 0;
+    font-family:'lora', sans-serif;
+}
+
+.mainlog{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(27, 42, 65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftlog{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.leftlog > h1{
+    color: rgb(160, 216, 233);
+    font-size: 3vw;
+}
+.rightlog{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardlog{
+    width: 50%;
+    height: 73%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: rgb(48, 72, 109) ;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px rgb(15, 24, 36);
+}
+.cardlog > h1{
+    color: rgb(161, 208, 252);
+    font-weight: 800;
+    margin: 0;
+}
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 10px 40px rgb(15, 24, 36);;
+    padding: 12px;
+    background: rgb(93, 134, 197);
+    color: rgb(177, 215, 250);
+    font-size: 12pt;
+    outline: none;
+    box-sizing: border-box;
+}
+.textfield > label{
+    color: rgb(177, 215, 250) ;
+    margin-bottom: 10px;
+}
+.textfield > input::placeholder{
+    color: rgba(162, 197, 230, 0.61);
+}
+.troca{
+    outline: none;
+    color: rgba(200, 235, 248, 0.89);
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-weight: 500;
+    text-align: center;
+}
+.btnlog{
+    width: 85%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 5px 10px 20px rgb(15, 24, 36);
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    background: rgba(184, 220, 255, 0.89) ;
+    color: rgb(15, 24, 36);
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width:950px){
+    .cardlog{
+        width: 85%;
+    }
+}
+@media only screen and (max-width:600px){
+    .mainlog{
+        flex-direction: column;
+    }
+    .leftlog > h1{
+        display: none;
+    }
+    .leftlog{
+        width: 100%;
+        height: auto;
+    }
+    .rightlog{
+        width: 100%;
+        height: auto;
+    }
+    .mar{
+        display: none;
+    }
+    .cardlog{
+        width: 85%;
+    }
+}
