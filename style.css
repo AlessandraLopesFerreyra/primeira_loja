@@ -111,7 +111,7 @@ footer{
 }
 .card img{
     width: 200px;
-    transition: 0.7s;
+    border-radius: 6px;
 }
 .cadas{
     width: 65px;
