@@ -12,6 +12,10 @@ header{
     background-color: rgb(54, 80, 136);
     height: 100px;
 }
+footer{
+    background-color: rgb(1, 96, 173);
+    height: 120px;
+}
 .logo{
     width: 135px;
     margin-top: -10px;
@@ -32,7 +36,7 @@ header{
 .content{
     background: rgb(190, 220, 228);
     width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 220px);
     padding: 5% 8%;
     display: flex;
 }
@@ -43,7 +47,7 @@ header{
     height: 100%;
 }
 .left>h1{
-    font-size: 50px;
+    font-size: 60px;
     color: rgb(19, 19, 94);
 }
 .left>h2{
@@ -87,15 +91,19 @@ header{
     justify-content: center;
 }
 .rigth>img{
-    width: 400px;
-    height: 400px;
-    border-radius: 6px;
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
+    box-shadow: 0px 10px 30px rgb(85, 85, 85);
+    transition: 10s;
 }
 .card{
     border: 1px solid black;
     justify-content: center;
     display: flex;
-    margin: 30px;
+    margin: 10px;
+    height: 800px;
+    width: auto;
 }

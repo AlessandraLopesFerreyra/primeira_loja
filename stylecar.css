@@ -5,20 +5,21 @@
 }
 body{
     font-family: 'lora', sans-serif;
+    background-color: rgb(204,221,255);
 }
 header{
     background-color:  rgb(35, 67, 138);
     font-size: 24px;
     padding: 5px 0;
     display: flex;
-    justify-content: center;
     color: white;
 
 }
 .logo{
     position: relative;
     width: 130px;
-    left: -50px;
+    left: 840px;
+    
 }
 main{
     background-color: rgb(204,221,255);
@@ -49,13 +50,14 @@ tr{
     border-bottom: 3px solid rgb(80, 80, 80);
 }
 th{
+    font-size: 20px;
     text-align: left;
     padding-bottom: 10px;
     text-transform: uppercase;
     color: rgb(48, 48, 48);
 }
 .prod{
-    width: 120px;
+    width: 150px;
     border-radius: 6px;
 }
 .produto{
@@ -66,7 +68,7 @@ th{
     margin-left: 20px;
 }
 .name{
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 7px;
 }
 .categoria{
@@ -174,11 +176,11 @@ aside>i{
     font-size: 18px;
 }
 .home{
-    position: relative;
     color: white;
     font-size: 40px;
-    left: -570px;
     padding: 10px;
+    cursor: pointer;
+    align-items: baseline;
 }
 .page-title{
    color: rgb(35, 67, 138);
