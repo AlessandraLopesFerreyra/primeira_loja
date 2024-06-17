@@ -32,6 +32,7 @@ main{
 }
 .content{
     display: flex;
+    padding: 50px;
 }
 section{
     flex: 1;
@@ -125,6 +126,7 @@ td{
     margin-bottom: 15px;
     border: 1px solid rgb(80, 80, 80);
     background: rgb(188, 204, 235) ;
+    padding: 10px;
 }
 aside>button{
     background: rgb(35, 67, 138);
